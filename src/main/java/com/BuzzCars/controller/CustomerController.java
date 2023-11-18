@@ -20,8 +20,12 @@ import com.BuzzCars.services.CustomerService;
 @RestController
 @RequestMapping("/customer")
 public class CustomerController {
+	// Production Credentials
+	// final String url =
+	// "https://cs6400team098frontend-74236d6b9cea.herokuapp.com/";
 
-	final String url = "http://localhost:3000";
+	// Local credentials
+	final String url = "https://cs6400team098frontend-74236d6b9cea.herokuapp.com/";
 
 	@Autowired
 	private CustomerService customerService;
